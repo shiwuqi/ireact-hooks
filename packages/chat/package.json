@@ -1,0 +1,25 @@
+{
+    "name": "@ireact-hooks/chat",
+    "version": "0.1.0",
+    "files": [
+        "lib"
+    ],
+    "typings": "lib/index.d.ts",
+    "main": "lib/index.js",
+    "scripts": {
+        "build": "rm -rf lib/* && rollup -c"
+    },
+    "author": " <liziw2012@163.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/lodash": "^4.14.159",
+        "rollup": "^2.26.3",
+        "rollup-plugin-babel": "^4.4.0",
+        "rollup-plugin-node-resolve": "^5.2.0",
+        "rollup-plugin-terser": "^7.0.0",
+        "rollup-plugin-typescript2": "^0.27.2"
+    },
+    "dependencies": {
+        "lodash": "^4.17.20"
+    }
+}

@@ -3,4 +3,4 @@ interface TimeType {
     minute: string;
     second: string;
 }
-export declare const useTimer: (props: { time?: TimeType }) => TimeType;
+export declare function useTimer(props: { time?: TimeType }): TimeType;
