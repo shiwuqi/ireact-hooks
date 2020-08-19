@@ -12,6 +12,7 @@
     "author": " <liziw2012@163.com>",
     "license": "ISC",
     "devDependencies": {
+        "@rollup/plugin-commonjs": "^15.0.0",
         "@types/lodash": "^4.14.159",
         "rollup": "^2.26.3",
         "rollup-plugin-babel": "^4.4.0",

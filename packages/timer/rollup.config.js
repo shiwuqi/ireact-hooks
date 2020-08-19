@@ -7,19 +7,19 @@ export default {
     input: 'src/index.ts',
     output: [
         {
-        dir: 'lib',
-        preserveModules: true,
-        format: 'cjs',
+            dir: 'lib',
+            preserveModules: true,
+            format: 'cjs',
         }
     ],
     plugins: [
         terser(),
         typescript2({
-        tsconfig: "tsconfig.json", typescript: require("typescript")
+            tsconfig: "tsconfig.json", typescript: require("typescript")
         }),
         resolve(),
         babel({
-        exclude: 'node_modules/**' // 只编译我们的源代码
+            exclude: 'node_modules/**' // 只编译我们的源代码
         })
     ],
     external: ['react']
