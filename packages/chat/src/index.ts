@@ -1,5 +1,5 @@
 import { useEffect, useReducer, useCallback, RefObject } from 'react';
-import debounce from 'lodash/debounce';
+import debounce from "lodash.debounce";
 
 export interface propsType<T> {
   ref: RefObject<T>;
