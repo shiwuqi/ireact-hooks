@@ -1,9 +1,6 @@
 {
-  "name": "@_shiqi/i-hooks",
-  "version": "0.1.2",
-  "workspaces": [
-    "packages/*"
-  ],
+  "name": "ireact-hooks",
+  "version": "0.1.0",
   "scripts": {
     "build": "lerna run build",
     "publish": "lerna publish"
