@@ -2,13 +2,13 @@ import * as React from 'react'
 import './index.css'
 const { useState, useRef, useCallback } = React
 
-export type TableSelectType = {
+export type DragSelectType = {
     cols: any[];
     rows: any[];
     onChange: (params: string[][]) => void;
 }
 
-export default function TableSelect(props: TableSelectType) {
+export default function DragSelect(props: DragSelectType) {
     const [allCheck, setAllCheck] = useState<string[]>([])
     const [currentCheck, setCurrentCheck] = useState<string[]>([])
     const [currentRemove, setCurrentRemove] = useState<string[]>([])
