@@ -1,6 +1,6 @@
 {
   "name": "@ireact-hooks/map",
-  "version": "0.2.1",
+  "version": "0.1.0",
   "files": [
     "lib"
   ],
@@ -17,5 +17,6 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-terser": "^7.0.0",
     "rollup-plugin-typescript2": "^0.27.2"
-  }
+  },
+  "gitHead": "fdb7b5638b12f12fff1da5ad28af9e203e2edba4"
 }

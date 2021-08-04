@@ -1,6 +1,6 @@
 {
     "name": "@ireact-hooks/chat",
-    "version": "0.2.1",
+    "version": "0.1.0",
     "files": [
         "lib"
     ],
@@ -23,5 +23,6 @@
     },
     "dependencies": {
         "lodash.debounce": "^4.0.8"
-    }
+    },
+    "gitHead": "fdb7b5638b12f12fff1da5ad28af9e203e2edba4"
 }
