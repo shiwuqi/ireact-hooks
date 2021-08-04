@@ -1,0 +1,31 @@
+.table {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-bottom: 0;
+}
+.tableTr {
+    width: 100%;
+}
+.tableRow {
+    display: flex;
+}
+
+.tableTd {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    flex: 1;
+    width: 20px;
+    height: 40px;
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.tableTd:last-child {
+    border-right-color: transparent;
+}
+
+
+.tableTdActive {
+    background-color: #FF8300;
+}

@@ -1,5 +1,5 @@
 {
-    "name": "@ireact-hooks/chat",
+    "name": "@ireact-hooks/tableselect",
     "version": "0.2.0",
     "files": [
         "lib"
@@ -13,8 +13,6 @@
     "license": "ISC",
     "devDependencies": {
         "@rollup/plugin-commonjs": "^15.0.0",
-        "@types/lodash": "^4.14.159",
-        "@types/lodash.debounce": "^4.0.6",
         "rollup": "^2.26.3",
         "rollup-plugin-babel": "^4.4.0",
         "rollup-plugin-node-resolve": "^5.2.0",
@@ -22,6 +20,6 @@
         "rollup-plugin-typescript2": "^0.27.2"
     },
     "dependencies": {
-        "lodash.debounce": "^4.0.8"
+        "rollup-plugin-css-only": "^3.1.0"
     }
 }
