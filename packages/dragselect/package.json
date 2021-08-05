@@ -1,6 +1,6 @@
 {
     "name": "@ireact-hooks/dragselect",
-    "version": "0.1.1",
+    "version": "0.1.6",
     "files": [
         "lib"
     ],
@@ -15,10 +15,13 @@
         "@rollup/plugin-commonjs": "^15.0.0",
         "rollup": "^2.26.3",
         "rollup-plugin-babel": "^4.4.0",
-        "rollup-plugin-css-only": "^3.1.0",
         "rollup-plugin-node-resolve": "^5.2.0",
         "rollup-plugin-terser": "^7.0.0",
         "rollup-plugin-typescript2": "^0.27.2"
     },
-    "gitHead": "fdb7b5638b12f12fff1da5ad28af9e203e2edba4"
+    "gitHead": "c952e8cdb9d42b2152dd7f97db4bbbcdc6bed5b4",
+    "dependencies": {
+        "postcss": "8.0.0",
+        "rollup-plugin-postcss": "^4.0.0"
+    }
 }

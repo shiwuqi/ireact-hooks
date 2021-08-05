@@ -3,14 +3,14 @@ import babel from 'rollup-plugin-babel';
 import typescript2 from 'rollup-plugin-typescript2';
 import { terser } from 'rollup-plugin-terser';
 import commonjs from '@rollup/plugin-commonjs';
-import css from 'rollup-plugin-css-only';
+import postcss from 'rollup-plugin-postcss';
 
 export default {
     input: 'src/index.ts',
     output: [
         {
             dir: 'lib',
-            preserveModules: true,
+            preserveModules: false,
             format: 'cjs',
         }
     ],
@@ -24,7 +24,12 @@ export default {
             exclude: 'node_modules/**' // 只编译我们的源代码
         }),
         commonjs(),
-        css({ output: 'bundle.css' })
+        postcss({
+            extensions: ['.css'],
+            autoModules: false,
+            modules: false,
+            minimize: true,
+        }),
     ],
     external: ['react']
 };
